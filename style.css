@@ -44,36 +44,82 @@ body{
     display: block;
 }
 button{
-    display: inline;
-}
-button{
     color: black;
-    margin: 40px;
+    margin: 40px 18px;
     transition: 1s;
     border: none;
-    background-color:rgb(220, 113, 113);
-    padding: 15px 32px;
+    background-color:#C07F00;
+    padding: 13px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px ;
+    cursor: pointer;
+    
   
 }
 button:hover{
-    background:rgb(239, 61, 61);
-    box-shadow: 0 0 10px rgb(238, 42, 42);
+    background:C07F00;
+    box-shadow: 0 0 90px#C07F00;
 
+}
+button:active{
+    transform: scale(0.8);
 }
 p {
     margin: 0px;
     padding: 0px;
 }
+ #heading{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 0.70em;
+    color: #C07F00;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent rgb(232, 243, 15));
+    animation: animate 5s linear infinite;
+    outline: none;
+    text-shadow:0 0 10px #C07F00 ,
+    0 0 20px #C07F00,
+    0 0 40 px #C07F00 ,
+    0 0 80 px #C07F00,
+    0 0 160px #C07F00, 
+ }
+ @keyframes animate{
+     0%,18%,20%,50%,60%,65%,80%,90%,92%
+     {
+        color: ;
+        text-shadow: none;
+     }
+     100%{
+        color: #C07F00;
+        text-shadow: 0 0 10px #C07F00 ,
+        0 0 20px #C07F00,
+        0 0 40 px #C07F00 ,
+        0 0 80 px #C07F00,
+        0 0 160px #C07F00,
+     }
+ }
 h1{
     margin: 10px;
+
 }
 .h2{
   margin-left: 190px;
 }
 .h3{
     margin-left: 390px;
+}
+.box{
+    position: relative;
+    width: 600px;
+    height: 300px;
+
+}
+h4{
+    color:#7a7b58;
 }
